@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ads img {
+  transform: translateX(-30px) translateY(-70px);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.arrow-section {
+  font-size: 1em;
+}
+
+.body-col-1 {
+  display: flex;
+  width: 25%;
+  flex-wrap: wrap;
+}
+
+.body-col-2 {
+  display: flex;
+  width: 75%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8cb00;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  display: flex;
+  flex-grow: 2;
+}
+
+.box3 {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f8cb00;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+
+.box3 div {
+  padding-left: 10px;
+}
+
+.body-content {
+  font-weight: 500;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.brand-menu {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  display: flex;
+  width: 25%;
+  background-color: #f8cb00;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  display: flex;
+  width: 75%;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.column-list {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+}
+
+.categories-top {
+  margin-top: 15px;
+  margin-left: 30px;
+  color: #a3a3a3;
+}
+
+.div-top {
+  display: flex;
+  width: 100%;
+  background-color: #f8cb00;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.div-bottom {
+  display: flex;
+  width: 100%;
+  background-color: #f8cb00;
+  flex-wrap: wrap;
+}
+
+div span {
+  color: #6364d8;
+}
+
+.flex-container {
+  margin-top: 78px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.flex-container>div {
+  background-color: white;
+  margin: 15px;
+  padding: 20px;
+  font-size: 30px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+.hovered-section {
+  
+  margin-left: 30px;
+  color: #f8cb00;
+}
+
+.item-type {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logo {
+  margin-left: 13px;
+  font-size: 2rem;
+  color: white;
+}
+
+.left-body-nav {
+  width: 100%;
+  margin-right: 30px;
+  transform: translateX(-30px) translateY(-100px);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+}
+
+.lower-brand-menu {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap
+}
+
+.lower-brand-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  flex-wrap: wrap
+}
+
+.menu-header {
+  background-color: #f8cb00;
+  font-weight: 500;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.product-selection-details {
+  margin-top: 20px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+}
+
+.product-description {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 211, 0)
+}
+
+.search-form {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.search-input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  width: 89%;
+}
+
+.search-btn {
+  color: white;
+  background: #6364d8;
+  border-color: #6364d8;
+  padding: 15px;
+  border-radius: 10%;
+}
+
+.search-input {
+  background: url("../images/search.png") left no-repeat;
+  background-color: white;
+}
+
+.shop-section-li {
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.sub {
+  color: grey;
+  margin-left: 30px;
+}
+
+.sort {
+  display: flex;
+  flex-grow: 5;
+  justify-content: flex-end;
+}
+
+.upper-brand-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* //CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* //CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* //CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* //CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* //CSS */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* //CSS */
+}
