@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+ }
+ .btn-green
+ {
+    background-color: green;
+    border: solid;
+ }
+ .btn-red{
+    background-color: red;
+    border:solid;
+ }
+ .btn-blue{
+    background-color: blue;
+    border:solid;
+ }
+ .hide{
+    display: none;
+ }
+ .show{
+    display:block;
+ }
+ .img-parent{
+    background-color:white;
+ }
