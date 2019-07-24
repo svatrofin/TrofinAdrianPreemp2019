@@ -14,6 +14,7 @@
 }
 
 .body-col-1 {
+ 
   display: flex;
   width: 25%;
   flex-wrap: wrap;
@@ -141,7 +142,7 @@ div span {
 
 .hovered-section {
   
-  margin-left: 30px;
+  margin-left: 35px;
   color: #f8cb00;
 }
 
@@ -220,7 +221,7 @@ div span {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 30px;
-  width: 89%;
+  width: 75%;
 }
 
 .search-btn {
@@ -238,14 +239,15 @@ div span {
 
 .shop-section-li {
   margin-bottom: 25px;
-  margin-top: 15px;
+  margin-top: 20px;
   font-weight: bold;
   margin-left: 30px;
 }
 
 .sub {
+  padding-top: 10px;
   color: grey;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .sort {
@@ -262,84 +264,49 @@ div span {
   flex-wrap: wrap
 }
 
-.fancyButton {
-  width:100px;
+.btn-left-contaier{
+
+  background-color:#6364d8;
   display:inline-block;
-  position:relative;
-  background-color:#2B8DCF;
+  vertical-align:middle;
+  padding: 13px;
+  text-align: center;
+  border-radius: 5%;
+
 }
-.fancyButton span {
-  width:100%;
+
+.btn-right-container{
+  background-color:#393ab1;
+  display:inline-block;;
+  vertical-align:middle;
+  padding: 13px;
+  text-align: center;
+  border-radius: 5%;
+  color:white;
+
+}
+
+.btn-chart{
+  padding-right:5px;
+
+}
+
+.btn-left-text{
+  color:white;
+
+}
+
+.btn-container{
+  /* padding-top: 50px; */
   display:inline-block;
-  position:absolute;
-}
-.fancyButton .bg {
-  height:50%;
-  top:0;
-  background-color:#4098D3 ;
-}
-.fancyButton .text {
-  position:relative;
-  text-align:center;
-  color:#fff;
+  background-color:#6364d8;
+  border-radius: 5%;
+
 }
 
 
-
-
-
-
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  /* //CSS */
+@media (min-width: 768px) {
+  .flex-container>div{
+  flex: 50%;
 }
-
-/* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  /* //CSS */
-}
-
-/* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* //CSS */
-}
-
-/* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* //CSS */
-}
-
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-
-@media (min-width: 481px) and (max-width: 767px) {
-  /* //CSS */
-}
-
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-
-@media (min-width: 320px) and (max-width: 480px) {
-  /* //CSS */
 }

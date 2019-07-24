@@ -1,19 +1,18 @@
 let firstNameBoole=false;
 let lnBoole=false;
 let mailBoole=false;
-
 let phoneBoole=false;
 
 document.getElementById("firstName").addEventListener("blur", function(event) {
     var value = document.getElementById("firstName").value;
     if (/^[a-zA-Z]+$/.test(value)) {
 
-        document.getElementById("firstName").setAttribute("style", "border: 1px solid #777777;");
+        document.getElementById("firstName").setAttribute("style", "border: 2px solid #777777;");
 
         firstNameBoole=true;
 
     } else {
-        document.getElementById("firstName").setAttribute("style", "border: 1px solid red;");
+        document.getElementById("firstName").setAttribute("style", "border: 2px solid red;");
 
         firstNameBoole=false;
     }
@@ -25,12 +24,12 @@ document.getElementById("lastName").addEventListener("blur", function(event) {
     var value = document.getElementById("lastName").value;
     if (/^[a-zA-Z]+$/.test(value)) {
 
-        document.getElementById("lastName").setAttribute("style", "border: 1px solid #777777;");
+        document.getElementById("lastName").setAttribute("style", "border: 2px solid #777777;");
 
         lnBoole=true;
 
     } else {
-        document.getElementById("lastName").setAttribute("style", "border: 1px solid red;");
+        document.getElementById("lastName").setAttribute("style", "border: 2px solid red;");
 
         lnBoole=false;
     }
@@ -42,12 +41,12 @@ document.getElementById("email").addEventListener("blur", function(event) {
     var value = document.getElementById("email").value;
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
 
-        document.getElementById("email").setAttribute("style", "border: 1px solid #777777;");
+        document.getElementById("email").setAttribute("style", "border: 2px solid #777777;");
 
         mailBoole=true;
 
     } else {
-        document.getElementById("email").setAttribute("style", "border: 1px solid red;");
+        document.getElementById("email").setAttribute("style", "border: 2px solid red;");
 
 
         mailBoole=false;
@@ -61,12 +60,12 @@ document.getElementById("phone").addEventListener("blur", function(event) {
     var value = document.getElementById("phone").value;
     if (/^[0-9]*$/.test(value) && value.length>7) {
 
-        document.getElementById("phone").setAttribute("style", "border: 1px solid #777777;");
+        document.getElementById("phone").setAttribute("style", "border: 2px solid #777777;");
 
         phoneBoole=true;
 
     } else {
-        document.getElementById("phone").setAttribute("style", "border: 1px solid red;");
+        document.getElementById("phone").setAttribute("style", "border: 2px solid red;");
 
         phoneBoole=false;
     }
@@ -87,9 +86,6 @@ function checkIfDisabled(){
     }
 }
 
-
-
-
 let addButton = document.querySelectorAll(".add");
 let removeButton= document.querySelectorAll(".remove");
 let quantityText = document.querySelectorAll(".quantity");
@@ -97,7 +93,6 @@ let priceText=document.querySelectorAll(".price");
 let RowTotalPrice=document.querySelectorAll(".row-price");
 let removeItemButton = document.querySelectorAll(".remove-item");
 let productsTableElements = document.querySelectorAll(".product");
-
 let totalTableItemPrice=document.querySelectorAll(".total-price");
 console.log(totalTableItemPrice);
 
@@ -155,8 +150,6 @@ let removeQuantity = (currentQ,index) => {
 
 }
 
-
-
 for (n=0, length = removeItemButton.length; n < length; n++) {
     removeItemButton[n].id= "remove" + (n + 1); 
 }
@@ -166,7 +159,6 @@ addButton.forEach((btn,i)=>{
     });
 
 })
-
 
 console.log("asafafsa",productsTableElements);
 function deleteRow(myElement,index) {
@@ -178,8 +170,6 @@ function deleteRow(myElement,index) {
     myElement.parentNode.removeChild(myElement);
      
   }
-
- 
 
 
 console.log("adsasa",removeItemButton);
