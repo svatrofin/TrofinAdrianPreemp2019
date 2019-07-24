@@ -305,8 +305,14 @@ div span {
 }
 
 
-@media (min-width: 768px) {
-  .flex-container>div{
-  flex: 50%;
-}
-}
+@media (max-width: 887px) {
+  .box3 {
+     display: none;
+    }
+  }
+
+@media (max-width: 887px) {
+    .box3 {
+       display: none;
+      }
+    }
