@@ -1,9 +1,20 @@
 .logo {
     width: 20%;
-    padding-left: 1rem;
-}
-
-.logo a {
+    padding-left: 4rem;
+ }
+ .logo a {
     text-decoration: none;
     line-height: 1rem;
-}
+ }
+ /* 1200px */
+ @media(max-width: 1200px){
+    header .logo {
+        width: 50%;
+    }
+ }
+ /* 1024px */
+ @media(max-width: 1024px){
+    .logo {
+        display: none;
+    }
+ }

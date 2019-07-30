@@ -1,13 +1,32 @@
-.header-container {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .header-container {
     display: flex;
     flex-direction: column;
     background-color: rgba(248, 203, 0, 1);
     height: 12rem;
     padding: 3rem 8% 0 8%;
     width: 100%;
-}
-
-.header-top-container {
+ }
+ .header-top-container{
     display: flex;
+    justify-content: space-between;
     padding-top: 1rem;
-}
+ }
+ .header-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0 0 22vw;
+ }
+ @media(max-width: 1024px){
+    .header-upper {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+ }
