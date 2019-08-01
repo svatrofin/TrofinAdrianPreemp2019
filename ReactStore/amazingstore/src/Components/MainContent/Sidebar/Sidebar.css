@@ -31,3 +31,7 @@
    text-transform: capitalize;
    font-weight: 700;
  }
+
+ .sub-cat{
+   list-style-type: none;
+ }
