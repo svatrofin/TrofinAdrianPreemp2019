@@ -1,5 +1,6 @@
 import React from 'react';
 import SideBar from './Sidebar/Sidebar';
+import TopContent from './TopContent/TopContent';
 
 class MainContent extends React.Component {
    constructor(props) {
@@ -20,7 +21,7 @@ class MainContent extends React.Component {
    render() {
        return (
            <>
-           <div>MainContent</div>
+           <TopContent/>
            <SideBar categories={this.state.categories}/>
            </>
        )
